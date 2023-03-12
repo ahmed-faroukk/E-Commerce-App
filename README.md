@@ -10,6 +10,8 @@ Android application that retrieves data from a remote server using modern design
 * [Kotlin Corotuines](https://kotlinlang.org/docs/coroutines-overview.html)
 * [job](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/)
 * [Glide](https://github.com/bumptech/glide)
+* [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
+
 * [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
 
 
