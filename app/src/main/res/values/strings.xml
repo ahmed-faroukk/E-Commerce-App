@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="LoginTextView">Login</string>
+    <string name="SeeReview">
+         <u>See Review</u>.
+    </string>
+    <string name="helps_faqs"><![CDATA[Helps & FAQs]]></string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_profile">My Profile</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="settings">Settings</string>
+    <string name="dollar">$</string>
+    <string name="_9_50">9.50</string>
+    <string name="rate">4.5</string>
+    <string name="stock">(+25)</string>
+    <string name="title">Red n hot pizza</string>
+    <string name="desc">Spicy chicken, beef</string>
+    <string name="todo">TODO</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">password</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="forgetpassword">ForgetPassword ?</string>
+    <string name="don_t_have_account">don\'t have account ?</string>
+    <string name="sign_up">sign up</string>
+    <string name="sign_in_with">sign in with</string>
+    <string name="todoo">TODO</string>
+    <string name="todooo">TODO</string>
+    <string name="browse_your_menu_and_order_directly">Browse your menu and order directly</string>
+    <string name="our_app_can_send_you_everywhere_even_space_for_only_2_99_per_month">Our app can send you everywhere, even space. For only $2.99 per month</string>
+    <string name="even_to_space_with_us_together">Even to space with us! Together</string>
+    <string name="ground_beef_tacos">Ground Beef Tacos</string>
+    <string name="_4_5">4.5</string>
+    <string name="_30">(30+)</string>
+    <string name="dollarr">$</string>
+    <string name="_00">00</string>
+    <string name="brown_the_beef_better_lean_ground_beef_i_like_to_use_85_lean_angus_garlic_use_fresh_chopped_spices_chili_powder_cumin_onion_powder">Brown the beef better. Lean ground beef – I like to use 85% lean angus. Garlic – use fresh chopped. Spices chili powder, cumin, onion powder.</string>
+    <string name="choice_of_add_on">Choice of Add On</string>
+</resources>

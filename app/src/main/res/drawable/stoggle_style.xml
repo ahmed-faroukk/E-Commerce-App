@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- WHEN IS CHECKED -->
+    <item android:drawable="@color/select" android:state_checked="true" />
+
+    <!-- WHEN IS NOT CHECKED -->
+    <item android:drawable="@color/unselect" android:state_checked="false" />
+
+</selector>
