@@ -2,22 +2,40 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_header"
+    android:background="#76FF5722"
+    android:layout_marginBottom="50dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:src="@drawable/profile_pic_2"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="150dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/nav_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/profile_pic_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+
 
     <TextView
+        android:id="@+id/nav_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="150dp"
         android:fontFamily="@font/sofia_pro"
         android:text="Eljad Eendaz"
         android:textColor="@color/black"
@@ -27,13 +45,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/nav_mail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="190dp"
         android:fontFamily="@font/sofia_pro"
         android:text="prelookstudio@gmail.com"
         android:textColor="#9796A1"
+        android:paddingBottom="50dp"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

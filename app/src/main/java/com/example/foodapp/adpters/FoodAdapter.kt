@@ -85,8 +85,4 @@ class FoodAdapter : RecyclerView.Adapter<FoodAdapter.FoodViewHolder>() {
         onItemClickListener = listener
     }
 
-    private fun replaceFragment(fragment: Fragment) {
-        val view : View
-
-    }
 }

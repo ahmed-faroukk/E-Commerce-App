@@ -6,29 +6,12 @@
         android:title="@string/my_orders"
         />
     <item
-        android:id="@+id/profile"
-        android:icon="@drawable/profile_icon"
-        android:title="@string/my_profile" />
-    <item
-        android:id="@+id/delivery"
-        android:icon="@drawable/address_icon"
-        android:title="@string/delivery_address"
-        />
-    <item
-        android:id="@+id/payment"
-        android:icon="@drawable/payment_icon"
-        android:title="@string/payment_methods" />
-    <item
-        android:id="@+id/contactUs"
-        android:icon="@drawable/contact_icon"
-        android:title="@string/contact_us" />
-    <item
         android:id="@+id/setting"
         android:icon="@drawable/setting_icon"
         android:title="@string/settings" />
     <item
         android:id="@+id/helps"
-        android:icon="@drawable/helps_icon"
+        android:icon="@drawable/ic_baseline_help_24"
         android:title="@string/helps_faqs" />
 
 </menu>

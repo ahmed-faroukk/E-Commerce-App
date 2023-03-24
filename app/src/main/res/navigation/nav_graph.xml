@@ -26,15 +26,15 @@
         <action
             android:id="@+id/action_loginFragment_to_home2"
             app:destination="@id/home"
-            app:popUpToInclusive="true"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_left" />
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/home"
-        android:name="com.example.foodapp.ui.fragments.home.home"
+        android:name="com.example.foodapp.ui.fragments.Home.home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -46,15 +46,15 @@
         <action
             android:id="@+id/action_home_to_loginFragment"
             app:destination="@id/loginFragment"
-            app:popUpToInclusive="true"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_left" />
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/showProductFragment"
-        android:name="com.example.foodapp.ui.fragments.home.ProductDetailsFragment"
+        android:name="com.example.foodapp.ui.fragments.Home.ProductDetailsFragment"
         android:label="fragment_show_product"
         tools:layout="@layout/fragment_show_product" >
         <action

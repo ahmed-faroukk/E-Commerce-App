@@ -1,28 +1,24 @@
-package com.example.foodapp.ui.fragments.home
+package com.example.foodapp.ui.fragments.Home
 
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.Animation
-import android.view.animation.ScaleAnimation
-import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.example.foodapp.databinding.FragmentShowProductBinding
-import com.example.foodapp.ui.activites.MainActivity
 import com.example.foodapp.R
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.google.android.material.snackbar.Snackbar
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ProductDetailsFragment : Fragment() {
     lateinit var binding: FragmentShowProductBinding
-    lateinit var viewModel: homeViewModel
+    private val viewModel: homeViewModel by viewModels()
     var productNumber = 0
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,7 +27,6 @@ class ProductDetailsFragment : Fragment() {
 
 
         binding = FragmentShowProductBinding.inflate(inflater, container, false)
-        viewModel = (activity as MainActivity).homeViewModel
 
 
         // get product data in my layout

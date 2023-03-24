@@ -7,42 +7,35 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.example.foodapp.R
 import com.example.foodapp.databinding.FragmentLoginBinding
 import com.example.foodapp.models.LoginRequest
 import com.example.foodapp.models.signInResponse
-import com.example.foodapp.ui.activites.MainActivity
 import com.example.foodapp.util.Resource
 import com.google.android.material.snackbar.Snackbar
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class loginFragment : Fragment() {
 
     lateinit var binding: FragmentLoginBinding
-    lateinit var viewModel: LoginViewModel
+    private val viewModel: LoginViewModel by viewModels()
     lateinit var userData: signInResponse
     lateinit var username: String
     lateinit var password: String
-    val TAG = "ResponseFailure"
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        //check that user login before of not
-        if (checkUserLogin())
-            findNavController().navigate(R.id.home)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentLoginBinding.inflate(inflater, container, false)
-        viewModel = (activity as MainActivity).LoginviewModel
         hideProgressbar()
 
-
+        if (checkUserLogin())
+            findNavController().navigate(R.id.action_loginFragment_to_home2)
 
         // handle login process
 
@@ -53,14 +46,15 @@ class loginFragment : Fragment() {
                     response.data?.let {
                         userData = it
                         saveLogin(binding.emailET.text.toString(),
-                            binding.passwordET.text.toString())
+                            binding.passwordET.text.toString() , it.email , it.gender , it.image , it.token)
+
                         findNavController().navigate(R.id.action_loginFragment_to_home2)
                     }
                 }
                 is Resource.Error -> {
                     hideProgressbar()
                     response.message?.let {
-                        Log.d(TAG, response.message.toString())
+                        Log.d("Problem", response.message.toString())
                         Snackbar.make(binding.root,
                             "wrong username or password",
                             Snackbar.LENGTH_LONG).show()
@@ -99,11 +93,18 @@ class loginFragment : Fragment() {
     }
 
 
-    private fun saveLogin(name: String, pass: String) {
+    private fun saveLogin(name: String, pass: String , email : String , gender : String , image : String , token : String) {
+        val TAG = "ResponseFailure"
         val sharedPref = requireActivity().getSharedPreferences("login_prefs", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()
+
         editor.putString("username", name)
         editor.putString("password", pass)
+        editor.putBoolean("User_logIn" , true)
+        editor.putString("email", email)
+        editor.putString("gender" , gender)
+        editor.putString("image" , image)
+        editor.putString("token" , token)
         editor.apply()
 
     }
@@ -111,11 +112,7 @@ class loginFragment : Fragment() {
     private fun checkUserLogin(): Boolean {
         val sharedPref = requireActivity().getSharedPreferences("login_prefs", Context.MODE_PRIVATE)
         val phone = sharedPref.getString("username", null)
-        val pass = sharedPref.getString("password", null)
-        if (phone != null && pass != null) {
-            return true
-        }
-        return false
+        return sharedPref.getBoolean("User_logIn" , false)
     }
 
 

@@ -1,6 +1,7 @@
-package com.example.foodapp.network.RemoteData
+package com.example.foodapp.data.RemoteData
 
 import com.example.foodapp.models.LoginRequest
+import com.example.foodapp.models.categories
 import com.example.foodapp.models.getAllProducts
 import com.example.foodapp.models.signInResponse
 import retrofit2.Response
@@ -17,5 +18,9 @@ interface ApiInterface {
 
     @GET("/products/search")
     suspend fun searchProducts(@Query("q") query: String): Response<getAllProducts>
+
+    @GET("products/categories")
+    suspend fun getCategories() : Response<categories>
+
 
 }

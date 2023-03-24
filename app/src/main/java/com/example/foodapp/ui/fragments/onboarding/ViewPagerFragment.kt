@@ -36,6 +36,8 @@ class ViewPagerFragment : Fragment() {
             onboardingTwo() ,
             onboardingThree()
         )
+
+
         val adapter = ViewPagerAdapter(
             fragmentList ,
             requireActivity().supportFragmentManager ,
