@@ -89,17 +89,26 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     // Room
-    implementation "androidx.room:room-runtime:2.4.3"
-    kapt "androidx.room:room-compiler:2.4.3"
+    implementation 'androidx.room:room-ktx:2.2.1'
+    kapt "androidx.room:room-compiler:2.2.1"
 
     //Dagger - Hilt
     implementation "com.google.dagger:hilt-android:2.44"
     kapt "com.google.dagger:hilt-compiler:2.44"
 
+    // play service location
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+    //shimemr loading library
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //matrial cardView
+    implementation 'com.google.android.material:material:1.4.0'
 
 
 
 }
+
 kapt {
     correctErrorTypes true
 }

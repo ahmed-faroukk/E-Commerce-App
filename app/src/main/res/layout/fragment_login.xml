@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.userAuthentication.loginFragment">
+    tools:context=".presentation.userAuthentication.loginFragment">
 
     <ProgressBar
         android:id="@+id/progress_circular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,9 +48,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/login"
-        android:layout_width="247dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="36dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="146dp"
         android:fontFamily="@font/sofia_pro"
@@ -66,7 +65,6 @@
         android:layout_marginStart="29dp"
         android:layout_marginTop="221dp"
         android:text="@string/e_mail"
-        android:textColor="#9796A1"
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -77,14 +75,13 @@
         android:layout_marginStart="29dp"
         android:layout_marginTop="353dp"
         android:text="@string/password"
-        android:textColor="#9796A1"
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/UserName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="259dp"
@@ -105,9 +102,7 @@
             android:id="@+id/emailET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/login_et_bg"
             android:hint="@string/enter_your_email"
-            android:textColor="#9796A1"
             app:layout_constraintBaseline_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -136,9 +131,7 @@
             android:id="@+id/password_ET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/login_et_bg"
             android:hint="@string/enter_your_password"
-            android:textColor="#9796A1"
 
             tools:ignore="DuplicateIds" />
 
@@ -167,7 +160,6 @@
         android:layout_marginEnd="65dp"
         android:background="@drawable/btn23"
         android:fontFamily="@font/sofia_pro"
-        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -203,7 +195,6 @@
         android:layout_width="130dp"
         android:layout_height="1dp"
         android:layout_marginBottom="80dp"
-        android:background="#80B3B3B3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -213,7 +204,6 @@
         android:layout_width="130dp"
         android:layout_height="1dp"
         android:layout_marginBottom="80dp"
-        android:background="#80B3B3B3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />

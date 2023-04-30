@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="160dp"
+        android:layout_height="320dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="41dp"
+        android:background="@drawable/rectangle140"
+        android:backgroundTint="#454444"
+        android:elevation="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView5"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="20sp">
+
+            <ImageView
+                android:id="@+id/item_image1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="100dp"
+                android:background="@color/white"
+                android:backgroundTint="#A7FFFFFF"
+                android:contentDescription="@string/todo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="100dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="240dp"
+                android:background="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="106dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="266dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:text="@string/desc"
+                android:textColor="#5B5B5E"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SmallSp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="160dp"
+        android:layout_height="320dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/rectangle140"
+        android:backgroundTint="#454444"
+        android:elevation="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="20sp">
+
+            <ImageView
+                android:id="@+id/item_imagex"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="100dp"
+                android:background="@color/white"
+                android:backgroundTint="#A7FFFFFF"
+                android:contentDescription="@string/todo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView4z"
+                android:layout_width="100dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/titlea"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="240dp"
+                android:background="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/descg"
+                android:layout_width="106dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="266dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:text="@string/desc"
+                android:textColor="#5B5B5E"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SmallSp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="160dp"
+        android:layout_height="320dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle140"
+        android:backgroundTint="#454444"
+        android:elevation="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="20sp">
+
+            <ImageView
+                android:id="@+id/item_imagezz"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="100dp"
+                android:background="@color/white"
+                android:backgroundTint="#A7FFFFFF"
+                android:contentDescription="@string/todo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView4kk"
+                android:layout_width="100dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/titlegs"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="240dp"
+                android:background="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/descadg"
+                android:layout_width="106dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="266dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:text="@string/desc"
+                android:textColor="#5B5B5E"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SmallSp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="160dp"
+        android:layout_height="320dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle140"
+        android:backgroundTint="#454444"
+        android:elevation="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="20sp">
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="100dp"
+                android:background="@color/white"
+                android:backgroundTint="#A7FFFFFF"
+                android:contentDescription="@string/todo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="240dp"
+                android:background="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="106dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="266dp"
+                android:background="#A7FFFFFF"
+                android:backgroundTint="#A7FFFFFF"
+                android:fontFamily="@font/sofia_pro"
+                android:text="@string/desc"
+                android:textColor="#5B5B5E"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SmallSp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.facebook.shimmer.ShimmerFrameLayout>

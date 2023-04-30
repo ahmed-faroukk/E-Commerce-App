@@ -4,39 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.Home.ProductDetailsFragment">
+    tools:context=".presentation.Home.ProductDetailsFragment">
 
     <ImageView
         android:id="@+id/product_img"
         android:layout_width="match_parent"
-        android:layout_height="242dp"
+        android:layout_height="wrap_content"
+        android:maxHeight="250dp"
         android:layout_margin="8dp"
         android:src="@drawable/show_product_img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
 
-    <ImageButton
-        android:id="@+id/product_back"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="27dp"
-        android:background="@drawable/home_top_left_btn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
-
-    <ImageButton
-        android:id="@+id/product_love_btn"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="350dp"
-        android:background="@drawable/love_btn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/product_title"
@@ -47,7 +27,6 @@
         android:layout_marginEnd="15dp"
         android:fontFamily="@font/sofia_pro"
         android:text="@string/ground_beef_tacos"
-        android:textColor="@color/black"
         android:textSize="31sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +49,6 @@
         android:layout_marginStart="55dp"
         android:text="@string/_4_5"
         android:textSize="14sp"
-        android:textColor="#111719"
         android:fontFamily="@font/sofia_pro"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +63,6 @@
         android:layout_marginStart="97dp"
         android:text="@string/_30"
         android:textSize="16sp"
-        android:textColor="#9796A1"
         android:fontFamily="@font/sofia_pro"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/product_title"
@@ -113,7 +90,6 @@
         android:layout_marginTop="45dp"
         android:fontFamily="@font/sofia_pro"
         android:text="@string/_9_50"
-        android:textColor="@color/black"
         android:textSize="31sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +102,6 @@
         android:text="@string/dollarr"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         android:fontFamily="@font/sofia_pro"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/product_title"
@@ -149,7 +124,6 @@
         android:layout_marginTop="57dp"
         android:fontFamily="@font/sofia_pro"
         android:text="@string/_00"
-        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/product_add_btn"
@@ -174,7 +148,6 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/sofia_pro"
         android:text="@string/brown_the_beef_better_lean_ground_beef_i_like_to_use_85_lean_angus_garlic_use_fresh_chopped_spices_chili_powder_cumin_onion_powder"
-        android:textColor="#9796A1"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -190,7 +163,6 @@
         android:layout_marginTop="26dp"
         android:fontFamily="@font/sofia_pro"
         android:text="@string/choice_of_add_on"
-        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -236,10 +208,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:paddingBottom="5dp"
-            android:src="@drawable/toggle_icon_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingBottom="1dp"
+            android:src="@drawable/ic_baseline_add_box_24"
             android:contentDescription="TODO" />
 
         <TextView
@@ -249,10 +221,9 @@
             android:paddingTop="13dp"
             android:layout_weight="1"
             android:fontFamily="@font/sofia_pro"
-            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="14sp"
-            android:text="Pepper  julienned" />
+            android:text="@string/pepper_julienned" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -262,7 +233,6 @@
             android:layout_weight="1"
             android:gravity="end"
             android:fontFamily="@font/sofia_pro"
-            android:textColor="#9796A1"
             android:textStyle="bold"
             android:textSize="14sp"
             android:text="+$2.30" />
@@ -279,10 +249,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:paddingBottom="5dp"
-            android:src="@drawable/toggle_item2" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingBottom="1dp"
+            android:src="@drawable/ic_baseline_add_box_24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -291,7 +261,6 @@
             android:paddingTop="13dp"
             android:layout_weight="1"
             android:fontFamily="@font/sofia_pro"
-            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="14sp"
             android:text="Baby spinach" />
@@ -304,7 +273,6 @@
             android:gravity="end"
             android:layout_weight="1"
             android:fontFamily="@font/sofia_pro"
-            android:textColor="#9796A1"
             android:textStyle="bold"
             android:textSize="14sp"
             android:text="+$2.30" />
@@ -321,10 +289,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:paddingBottom="5dp"
-            android:src="@drawable/toggle_item3" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingBottom="1dp"
+            android:src="@drawable/ic_baseline_add_box_24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -333,7 +301,6 @@
             android:paddingTop="13dp"
             android:layout_weight="1"
             android:fontFamily="@font/sofia_pro"
-            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="14sp"
             android:text="Masroom" />
@@ -346,7 +313,6 @@
             android:gravity="end"
             android:layout_weight="1"
             android:fontFamily="@font/sofia_pro"
-            android:textColor="#9796A1"
             android:textStyle="bold"
             android:textSize="14sp"
             android:text="+$2.30" />

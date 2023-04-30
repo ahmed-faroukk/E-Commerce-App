@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.onboarding.screens.onboardingThree">
+    tools:context=".presentation.onboarding.screens.onboardingThree">
 
 
     <ImageView
@@ -55,7 +55,7 @@
         android:layout_marginTop="471dp"
         android:layout_marginEnd="19dp"
         android:fontFamily="@font/sofia_pro"
-        android:text=" Pickup delivery at your door"
+        android:text="@string/pickup_delivery_at_your_door"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:gravity="center"
@@ -71,7 +71,7 @@
         android:layout_marginTop="573dp"
         android:layout_marginEnd="19dp"
         android:gravity="center"
-        android:text="Our app can send you everywhere, even space. For only $2.99 per month"
+        android:text="@string/our_app_can_send_you_everywhere_even_space_for_only_2_99_perr_month"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

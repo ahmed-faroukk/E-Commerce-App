@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/order"
-        android:icon="@drawable/orders_icon"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
         android:title="@string/my_orders"
         />
     <item
         android:id="@+id/setting"
-        android:icon="@drawable/setting_icon"
+        android:icon="@drawable/ic_baseline_settings_24"
         android:title="@string/settings" />
     <item
         android:id="@+id/helps"

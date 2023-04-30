@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodApp</string>
+    <string name="app_name">E-commerce</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="LoginTextView">Login</string>
@@ -7,7 +7,7 @@
          <u>See Review</u>.
     </string>
     <string name="helps_faqs"><![CDATA[Helps & FAQs]]></string>
-    <string name="my_orders">My Orders</string>
+    <string name="my_orders">My Cart</string>
     <string name="my_profile">My Profile</string>
     <string name="delivery_address">Delivery Address</string>
     <string name="payment_methods">Payment Methods</string>
@@ -40,4 +40,51 @@
     <string name="_00">00</string>
     <string name="brown_the_beef_better_lean_ground_beef_i_like_to_use_85_lean_angus_garlic_use_fresh_chopped_spices_chili_powder_cumin_onion_powder">Brown the beef better. Lean ground beef – I like to use 85% lean angus. Garlic – use fresh chopped. Spices chili powder, cumin, onion powder.</string>
     <string name="choice_of_add_on">Choice of Add On</string>
+    <string name="enter_card_details">Enter card details</string>
+    <string name="card_number">Card number</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="subtotal">subTotal</string>
+    <string name="subtotal_is">199.00</string>
+    <string name="delivery_fee">Delivery fee</string>
+    <string name="deliveryis">10.00</string>
+    <string name="total">Total</string>
+    <string name="totalis">209.00</string>
+    <string name="by_placing_this_order_you_agree_to_the_credit_n_card_payment">By placing this order you agree to the Credit \n Card Payment</string>
+    <string name="terms_and_conditions">terms and conditions</string>
+    <string name="pay">Pay</string>
+    <string name="cancel">Cancel</string>
+    <string name="are_you_sure_you_want_to_place_this_order">Are you sure you want to place this order?</string>
+    <string name="confirm">confirm</string>
+    <string name="language">Language</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="mood">Mood</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="save_changes">save changes</string>
+    <string name="order_details">Order Details</string>
+    <string name="delivery_location">Delivery Location</string>
+    <string name="choose_location">choose Location</string>
+    <string name="pay_with">Pay With</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="cash">Cash</string>
+    <string name="order_info">Order Info</string>
+    <string name="shipping">shipping</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="your_cart_is_empty">YOUR CART IS EMPTY</string>
+    <string name="you_have_no_items_in_your_shopping_cart_lets_go_buy_something">you have no items in your shopping cart Lets go buy something</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="pickup_delivery_at_your_door">Pickup delivery at your door</string>
+    <string name="our_app_can_send_you_everywhere_even_space_for_only_2_99_perr_month">Our app can send you everywhere, even space. For only $2.99 per month</string>
+    <string name="thank_you_your_order_in_the_way_please_wait_our_call">thank you your Order in the way please wait our call</string>
+    <string name="ok">Ok</string>
+    <string name="pepper_julienned">Pepper julienned</string>
+    <string name="products">Products</string>
+    <string name="search">search....</string>
+    <string name="allproducts">All products</string>
+    <string name="searchresult">Search Result</string>
 </resources>

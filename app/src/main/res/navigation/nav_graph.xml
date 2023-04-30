@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/viewPagerFragment">
+    app:startDestination="@id/splashScreenFragment">
 
     <fragment
         android:id="@+id/viewPagerFragment"
-        android:name="com.example.foodapp.ui.fragments.onboarding.ViewPagerFragment"
+        android:name="com.example.ECommerceApp.presentation.onboarding.ViewPagerFragment"
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager" >
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.foodapp.ui.fragments.userAuthentication.loginFragment"
+        android:name="com.example.ECommerceApp.presentation.userAuthentication.loginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -30,11 +30,12 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/home"
             app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/home"
-        android:name="com.example.foodapp.ui.fragments.Home.home"
+        android:name="com.example.ECommerceApp.presentation.Home.home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -50,11 +51,45 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/loginFragment"
             app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_home_to_cartFragment"
+            app:destination="@id/cartFragment"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_home_to_emptyCartFragment"
+            app:destination="@id/emptyCartFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            app:popUpTo="@id/home" />
+        <action
+            android:id="@+id/action_home_to_cartFragment2"
+            app:destination="@id/cartFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in" />
+        <action
+            android:id="@+id/action_home_to_appSittingFragment"
+            app:destination="@id/appSittingFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"/>
+        <action
+            android:id="@+id/action_home_to_chatBotFragment"
+            app:destination="@id/chatBotFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"/>
+        <action
+            android:id="@+id/action_home_to_lostConnectionFragmnet"
+            app:destination="@id/lostConnectionFragmnet" />
     </fragment>
     <fragment
         android:id="@+id/showProductFragment"
-        android:name="com.example.foodapp.ui.fragments.Home.ProductDetailsFragment"
+        android:name="com.example.ECommerceApp.presentation.Home.ProductDetailsFragment"
         android:label="fragment_show_product"
         tools:layout="@layout/fragment_show_product" >
         <action
@@ -64,5 +99,89 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.ECommerceApp.presentation.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_showProductFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            app:destination="@id/showProductFragment" />
+        <action
+            android:id="@+id/action_cartFragment_to_emptyCartFragment"
+            app:destination="@id/emptyCartFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            app:popUpTo="@id/home" />
+        <action
+            android:id="@+id/action_cartFragment_to_orederCompletedFragment"
+            app:destination="@id/orederCompletedFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            app:popUpTo="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/emptyCartFragment"
+        android:name="com.example.ECommerceApp.presentation.cart.EmptyCartFragment"
+        android:label="fragment_empty_cart"
+        tools:layout="@layout/fragment_empty_cart" >
+        <action
+            android:id="@+id/action_emptyCartFragment_to_home"
+            app:destination="@id/home"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            app:popUpTo="@id/home" />
+        <action
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            android:id="@+id/action_emptyCartFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orederCompletedFragment"
+        android:name="com.example.ECommerceApp.presentation.cart.OrederCompletedFragment"
+        android:label="fragment_oreder_completed"
+        tools:layout="@layout/fragment_oreder_completed" >
+        <action
+            android:id="@+id/action_orederCompletedFragment_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/home"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/slide_in"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/appSittingFragment"
+        android:name="com.example.ECommerceApp.presentation.setting.AppSittingFragment"
+        android:label="fragment_app_sitting"
+        tools:layout="@layout/fragment_app_sitting" />
+    <fragment
+        android:id="@+id/chatBotFragment"
+        android:name="com.example.ECommerceApp.presentation.customerService.ChatBotFragment"
+        android:label="fragment_chat_bot"
+        tools:layout="@layout/fragment_chat_bot"
+        />
+    <fragment
+        android:id="@+id/lostConnectionFragmnet"
+        android:name="com.example.ECommerceApp.presentation.LostConnection.LostConnectionFragmnet"
+        android:label="fragment_lost_connection_fragmnet"
+        tools:layout="@layout/fragment_lost_connection_fragmnet" />
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.ECommerceApp.presentation.splash.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
     </fragment>
 </navigation>

@@ -13,10 +13,10 @@
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="8dp"
         android:elevation="12dp"
         app:cardCornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -31,10 +31,10 @@
 
 
     <TextView
+        android:gravity="center"
         android:id="@+id/nav_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="150dp"
         android:fontFamily="@font/sofia_pro"
         android:text="Eljad Eendaz"
@@ -46,9 +46,9 @@
 
     <TextView
         android:id="@+id/nav_mail"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="190dp"
         android:fontFamily="@font/sofia_pro"
         android:text="prelookstudio@gmail.com"
