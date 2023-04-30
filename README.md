@@ -33,7 +33,7 @@ Android application that retrieves data from a remote server using modern design
   </tr>
 </table>
 
-#Tools & APIs
+# Tools & APIs
 
 * [MVVM Arch](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture)
 * [ Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
