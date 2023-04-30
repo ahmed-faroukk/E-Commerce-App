@@ -24,17 +24,12 @@ Android application that retrieves data from a remote server using modern design
 * [brainshop](https://brainshop.ai/brain/174851/training)
 * [DummyJSON](https://dummyjson.com/)
 
-
-
-
-
-
-# App video 
-https://user-images.githubusercontent.com/72602749/224560261-b6aa35b7-c9f2-4c14-85ea-f0d2fafc1c36.mp4
-
+# Features 
+* Dark and light mode
+* Animations
+* Arabic and English
+* enable and disable Notifications
 
 # App Arch
-* [Building Modern Android Apps with Architecture Guidelines](https://proandroiddev.com/building-modern-apps-using-the-android-architecture-guidelines-3238fff96f14)
-
-![debd863c-d3e5-408c-b69e-c801f0840db8](https://user-images.githubusercontent.com/72602749/203816815-36ebce68-64e9-4fc4-9b71-cec0aa6c0f08.jpg)
+![arch](https://user-images.githubusercontent.com/72602749/235356706-8d4d0e13-915d-4a69-9140-445dfcccf275.png)
 
