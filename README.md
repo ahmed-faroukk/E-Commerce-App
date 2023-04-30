@@ -31,5 +31,5 @@ Android application that retrieves data from a remote server using modern design
 * enable and disable Notifications
 
 # App Arch
-![arch](https://user-images.githubusercontent.com/72602749/235356706-8d4d0e13-915d-4a69-9140-445dfcccf275.png)
+![1 Q8wtqEovXwx8PoPZPoeSpg](https://user-images.githubusercontent.com/72602749/235357018-b144c8fa-2f06-478f-a67f-9fce58e86f06.png)
 
