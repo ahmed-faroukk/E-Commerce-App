@@ -1,6 +1,38 @@
 # E-Commerce with Ai Chat Bot
 Android application that retrieves data from a remote server using modern design and smooth animations
 
+# ScreenShots:
+<table>
+  <tr>
+        <td><img src="https://user-images.githubusercontent.com/72602749/235357359-139c6887-276f-425f-9372-463ba36fedae.jpg"></td>
+        <td><img src="https://user-images.githubusercontent.com/72602749/235357360-d8aea2a6-37f3-43c4-b0f7-90f7f56816fe.jpg"></td>
+        <td><img src="https://user-images.githubusercontent.com/72602749/235357362-b8469527-3c13-464d-9ab5-395caeb7abdc.jpg"></td>
+        <td><img src="https://user-images.githubusercontent.com/72602749/235357363-af9e7b05-f2c3-4ede-ad6f-567934300c0b.jpg"></td>
+  </tr>
+  
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357356-bd656bb8-e47b-40d6-bf5f-d01e3ef8c872.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357943-e639c590-4761-4f71-8c61-20632ec61b11.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235358152-5e4cdba8-961e-456e-ae3f-708397ddd6b7.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235358154-ebae5c5c-aa8e-4e4a-8548-300fb849c3a5.jpg"></td>
+    
+  
+    
+    
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357367-efa86eec-70d0-437a-b6f7-a9390dd53d83.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357368-611202cf-fe64-438b-ab7b-f5f9be4c8dcc.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357370-599a2fe9-19b9-41e7-9c33-e346687050f6.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357358-9ec16a01-4bf7-4e76-9e1f-dc23ccfbee46.jpg"></td>
+
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357372-d7e22491-8842-490f-9a4f-1f2ddaf1736d.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72602749/235357375-9ce6d170-5b0e-44a9-acb6-0d3946a9aa6d.jpg"></td>
+  </tr>
+</table>
+
 #Tools & APIs
 
 * [MVVM Arch](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture)
