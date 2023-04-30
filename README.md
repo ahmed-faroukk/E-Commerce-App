@@ -13,17 +13,20 @@ Android application that retrieves data from a remote server using modern design
 * [Sealed Classes](https://www.boltuix.com/2021/10/sealed-classes-handle-api-responses-in.html)
 * [Kotlin Corotuines](https://kotlinlang.org/docs/coroutines-overview.html)
 * [job](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/)
-* [Glide](https://github.com/bumptech/glide)
-* [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
-* [leakCanary](https://github.com/square/leakcanary)
-* [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
-
-
-
 * [Live Data](https://developer.android.com/reference/androidx/lifecycle/LiveData)
 * [Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)
 * [View binding](https://developer.android.com/topic/libraries/view-binding)
 * [ViewPager2](https://developer.android.com/reference/kotlin/androidx/viewpager2/widget/ViewPager2)
+* [Glide](https://github.com/bumptech/glide)
+* [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
+* [leakCanary](https://github.com/square/leakcanary)
+* [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
+* [brainshop](https://brainshop.ai/brain/174851/training)
+* [DummyJSON](https://dummyjson.com/)
+
+
+
+
 
 
 # App video 
