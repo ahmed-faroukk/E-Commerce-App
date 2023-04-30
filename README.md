@@ -1,7 +1,7 @@
 # E-Commerce with Ai Chat Bot
 Android application that retrieves data from a remote server using modern design and smooth animations
 
-#Tools
+#Tools & APIs
 
 * [MVVM Arch](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture)
 * [ Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
@@ -15,6 +15,7 @@ Android application that retrieves data from a remote server using modern design
 * [job](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/)
 * [Glide](https://github.com/bumptech/glide)
 * [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
+* [leakCanary](https://github.com/square/leakcanary)
 * [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
 
 
