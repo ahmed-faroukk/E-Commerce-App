@@ -53,6 +53,8 @@ Android application that retrieves data from a remote server using modern design
 * [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
 * [leakCanary](https://github.com/square/leakcanary)
 * [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
+* [SplashScreen](https://medium.com/@declannnadozie/create-a-splash-screen-in-android-with-kotlin-coroutines-and-fragment-da27fb1a946a)
+
 * [brainshop](https://brainshop.ai/brain/174851/training)
 * [DummyJSON](https://dummyjson.com/)
 
