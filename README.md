@@ -1,9 +1,13 @@
-# alexon-Task
+# E-Commerce with Ai Chat Bot
 Android application that retrieves data from a remote server using modern design and smooth animations
 
 # Features and Tools
 
 * [MVVM Arch](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture)
+* [ Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+* [ Fused Location Provider API in Android.](https://developers.google.com/location-context/fused-location-provider)
+* [ Room DB](https://developer.android.com/training/data-storage/room)
+* [ Notifications](https://developer.android.com/develop/ui/views/notifications/build-notification)
 * [Retrofit](https://www.youtube.com/watch?v=t6Sql3WMAnk)
 * [OkHttp](https://square.github.io/okhttp/)
 * [Sealed Classes](https://www.boltuix.com/2021/10/sealed-classes-handle-api-responses-in.html)
@@ -11,7 +15,6 @@ Android application that retrieves data from a remote server using modern design
 * [job](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/)
 * [Glide](https://github.com/bumptech/glide)
 * [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
-
 * [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
 
 
