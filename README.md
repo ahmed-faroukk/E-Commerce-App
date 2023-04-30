@@ -1,6 +1,6 @@
 # E-Commerce with Ai Chat Bot
-Android application that retrieves data from a remote server using modern design and smooth animations
 
+E-Commerce with AI Chat Bot is a modern Android application that provides a seamless shopping experience with the help of an AI-powered chatbot. The app retrieves data from a remote server and uses a range of cutting-edge tools and APIs
 # ScreenShots:
 <table>
   <tr>
