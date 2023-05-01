@@ -54,9 +54,11 @@ E-Commerce with AI Chat Bot is a modern Android application that provides a seam
 * [leakCanary](https://github.com/square/leakcanary)
 * [Observing your network connection with Flow](https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3)
 * [SplashScreen](https://medium.com/@declannnadozie/create-a-splash-screen-in-android-with-kotlin-coroutines-and-fragment-da27fb1a946a)
-
+* [material-components](https://github.com/material-components/material-components-android)
+* [Shimmer for facebook-like loading effect](https://medium.com/mindorks/android-design-shimmer-effect-fa7f74c68a93)
 * [brainshop](https://brainshop.ai/brain/174851/training)
 * [DummyJSON](https://dummyjson.com/)
+
 
 # Features 
 * Dark and light mode
